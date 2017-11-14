@@ -3,7 +3,7 @@ Simple shell scripts I use to tweak MacOS to my liking.
 
 ## Usage:
 
-- `BrewConfig.sh` Install and updates HomeBrew and tools I like.
+- `BrewConfig.sh` Installs and updates HomeBrew and tools I like.
 - `OSConfig.sh` Tweaks OS sittings to how I like them.  
 - `UnsplashBackground.sh` Downloads an amazing image from Unsplash and sets it as the background.
 
