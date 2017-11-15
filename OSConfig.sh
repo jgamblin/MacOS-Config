@@ -62,4 +62,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH/plugins/
 wget -O $ZSH/themes/cobalt2.zsh-theme https://raw.githubusercontent.com/wesbos/Cobalt2-iterm/master/cobalt2.zsh-theme
 
 
-
+# Install Powerline Fonts 
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
