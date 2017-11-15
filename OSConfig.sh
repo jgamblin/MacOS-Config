@@ -55,5 +55,11 @@ defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
 # Minimize Windows Into Their Application’s Icon
 defaults write com.apple.dock minimize-to-application -bool true
 
-# setup Oh my Zsh
+# setup Oh my Zsh & Plugins & Themes
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH/plugins/zsh-syntax-highlighting
+wget -O $ZSH/themes/cobalt2.zsh-theme https://raw.githubusercontent.com/wesbos/Cobalt2-iterm/master/cobalt2.zsh-theme
+
+
+
