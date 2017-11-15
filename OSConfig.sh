@@ -54,3 +54,6 @@ defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
 
 # Minimize Windows Into Their Application’s Icon
 defaults write com.apple.dock minimize-to-application -bool true
+
+# setup Oh my Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
