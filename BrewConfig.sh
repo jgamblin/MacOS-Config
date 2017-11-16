@@ -25,13 +25,13 @@ brew install git
 brew install git-lfs
 
 # Install Some Security Tools
-brew install binutils
-brew install binwalk
+#brew install binutils
+#brew install binwalk
 brew install nmap
-brew install sqlmap
-brew install tcpflow
-brew install tcpreplay
-brew install tcptrace
+#brew install sqlmap
+#brew install tcpflow
+#brew install tcpreplay
+#brew install tcptrace
 
 # Install Some Other Tools
 brew install shellcheck
