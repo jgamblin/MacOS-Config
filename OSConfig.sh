@@ -68,3 +68,6 @@ cd fonts
 ./install.sh
 cd ..
 rm -rf fonts
+
+# Allow Apps from Anywhere
+sudo spctl --master-disable
