@@ -64,6 +64,7 @@ curl -o $ZSH/themes/cobalt2.zsh-theme https://raw.githubusercontent.com/wesbos/C
 # Edit Oh My Zsh configure file
 sed -i "" 's/\(^ZSH_THEME=\).*/\ZSH_THEME="cobalt2"/' ~/.zshrc
 sed -i "" '/git/s/ .*/ git zsh-syntax-highlighting zsh-autosuggestions/' ~/.zshrc
+chsh -s /bin/zsh
 
 # Install Powerline Fonts 
 git clone https://github.com/powerline/fonts.git --depth=1
