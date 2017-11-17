@@ -77,6 +77,5 @@ rm -rf fonts
 sudo spctl --master-disable
 
 # Auto change wallpaper after login On Mac
-curl -o ~/Pictures/Wallpapers/unsplash/login.sh  "https://raw.githubusercontent.com/Mehran/MacOS-Config/master/UnsplashBackground.sh" && chmod +x login.sh
-curl -o ~/Library/LaunchAgents/com.user.loginscript.plist "https://gist.githubusercontent.com/Mehran/86019097a00dc661d2ca5c5820a2bfd1/raw/e399e122f121ed9a4f8d08154efe49ccd617d329/com.user.loginscript"
+curl -o ~/Pictures/Wallpapers/unsplash/login.sh  "https://raw.githubusercontent.com/Mehran/MacOS-Config/master/UnsplashBackground.sh" && chmod +x ~/Pictures/Wallpapers/unsplash/login.shcurl -o ~/Library/LaunchAgents/com.user.loginscript.plist "https://gist.githubusercontent.com/Mehran/86019097a00dc661d2ca5c5820a2bfd1/raw/e399e122f121ed9a4f8d08154efe49ccd617d329/com.user.loginscript"
 launchctl load ~/Library/LaunchAgents/com.user.loginscript.plist
