@@ -62,8 +62,8 @@ sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH/plu
 curl -o $ZSH/themes/cobalt2.zsh-theme https://raw.githubusercontent.com/wesbos/Cobalt2-iterm/master/cobalt2.zsh-theme
 
 # Edit Oh My Zsh configure file
-sed -i "" 's/\(^ZSH_THEME=\).*/\ZSH_THEME="cobalt2"/' ~/.zshrc
-sed -i "" '/git/s/ .*/ git zsh-syntax-highlighting zsh-autosuggestions/' ~/.zshrc
+sed -i 's/\(^ZSH_THEME=\).*/\ZSH_THEME="cobalt2"/' ~/.zshrc
+sed -i '/git/s/ .*/ git zsh-syntax-highlighting zsh-autosuggestions/' ~/.zshrc
 chsh -s /bin/zsh
 
 # Install Powerline Fonts 
