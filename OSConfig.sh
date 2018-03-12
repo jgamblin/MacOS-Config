@@ -22,10 +22,12 @@ defaults write com.apple.screencapture type -string "png"
 defaults write com.apple.screencapture disable-shadow -bool true
 
 #Remove Icons For Hard Drives, Servers, And Removable Media On The Desktop.
-defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool false
-defaults write com.apple.finder ShowHardDrivesOnDesktop -bool false
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowMountedServersOnDesktop -bool false
-defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool false
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+killall -HUP Finder
+
 
 #Keep folders At Top When Sorting By Name.
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
