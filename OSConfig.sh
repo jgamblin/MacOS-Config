@@ -57,6 +57,9 @@ defaults write com.apple.finder OpenWindowForNewRemovableDisk -bool true
 # Minimize Windows Into Their Application’s Icon
 defaults write com.apple.dock minimize-to-application -bool true
 
+# Disabled Correct Spelling Automatically
+defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false
+
 # setup Oh my Zsh & Plugins & Themes
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sudo git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH/plugins/zsh-autosuggestions
