@@ -60,6 +60,9 @@ defaults write com.apple.dock minimize-to-application -bool true
 # Disabled Correct Spelling Automatically
 defaults write -g NSAutomaticSpellingCorrectionEnabled -bool false
 
+# Show battery percentage
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
+
 # setup Oh my Zsh & Plugins & Themes
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sudo git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH/plugins/zsh-autosuggestions
