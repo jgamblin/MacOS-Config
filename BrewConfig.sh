@@ -25,6 +25,7 @@ brew install git
 brew install git-lfs
 brew install telnet
 brew install unzip
+brew install wget
 
 # Install Some Security Tools
 #brew install binutils
