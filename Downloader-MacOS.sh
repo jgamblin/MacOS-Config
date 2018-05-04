@@ -1,5 +1,9 @@
 #!/bin/bash
 
+mkdir Desktop/files
+cd Desktop/files
+
+
 #### Download Evernote ####
 printf "Downloading Evernote ...\n"
 curl -s -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36" -L "https://evernote.com/download/" | sed -n 's/^.*\(https.*dmg\).*/\1/p' > evernote.txt && curl $(cat evernote.txt) -O && cat evernote.txt | sed 's@.*/@@' > File.txt > /dev/null 2>&1
