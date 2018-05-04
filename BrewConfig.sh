@@ -24,6 +24,7 @@ brew install bash-completion2
 brew install git
 brew install git-lfs
 brew install telnet
+brew install unzip
 
 # Install Some Security Tools
 #brew install binutils
