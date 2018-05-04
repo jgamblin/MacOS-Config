@@ -21,3 +21,4 @@ brew cask install iterm2
 brew cask install vmware-fusion
 brew cask install ipvanish-vpn
 brew cask install teamviewer
+brew cask install insomniax
