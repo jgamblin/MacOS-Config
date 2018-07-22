@@ -7,8 +7,7 @@ if ! [ -x "$(command -v brew)" ]; then
      brew update
      brew upgrade
    fi
-sudo -i
-
+   
 # Install Need Software on Mac #
 brew cask install evernote
 brew cask install firefox
