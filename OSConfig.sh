@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo -i
+
 # Turn On Dark Mode (From brew install dark-mode)
 dark-mode on
 
