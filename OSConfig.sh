@@ -67,9 +67,9 @@ defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
 # setup Oh my Zsh & Plugins & Themes
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-sudo git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH/plugins/zsh-autosuggestions
-sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH/plugins/zsh-syntax-highlighting
-curl -o $ZSH/themes/cobalt2.zsh-theme https://raw.githubusercontent.com/wesbos/Cobalt2-iterm/master/cobalt2.zsh-theme
+sudo git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
+sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
+curl -o ~/.oh-my-zsh/themes/cobalt2.zsh-theme https://raw.githubusercontent.com/wesbos/Cobalt2-iterm/master/cobalt2.zsh-theme
 
 # Edit Oh My Zsh configure file
 sed -i 's/\(^ZSH_THEME=\).*/\ZSH_THEME="cobalt2"/' ~/.zshrc
