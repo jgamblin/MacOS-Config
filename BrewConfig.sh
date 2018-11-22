@@ -26,6 +26,7 @@ brew install git-lfs
 brew install telnet
 brew install unzip
 brew install wget
+brew install wireguard-tools
 
 # Install Some Security Tools
 #brew install binutils
