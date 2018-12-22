@@ -19,6 +19,6 @@ brew cask install telegram
 brew cask install 1password
 brew cask install iterm2
 brew cask install vmware-fusion
-brew cask install ipvanish-vpn
+#brew cask install ipvanish-vpn
 brew cask install insomniax
 brew tap buo/cask-upgrade
