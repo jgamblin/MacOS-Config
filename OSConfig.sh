@@ -79,6 +79,9 @@ sed -i 's/\(^ZSH_THEME=\).*/\ZSH_THEME="cobalt2"/' ~/.zshrc
 sed -i '/git/s/ .*/ git zsh-syntax-highlighting zsh-autosuggestions/' ~/.zshrc
 chsh -s /bin/zsh
 
+# Remove the “Last login” Message from the Terminal
+touch .hushlogin
+
 # Install Powerline Fonts 
 git clone https://github.com/powerline/fonts.git --depth=1
 cd fonts
