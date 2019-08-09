@@ -39,7 +39,7 @@ brew install nmap
 
 # Install Some Other Tools
 brew install shellcheck
-brew install dark-mode
+#brew install dark-mode
 
 
 # Clean Up Brew
