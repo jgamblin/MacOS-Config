@@ -3,7 +3,7 @@
 sudo -i
 
 # Turn On Dark Mode (From brew install dark-mode)
-dark-mode on
+#dark-mode on
 
 # Enable Darkmode on Mojave Os
 osascript -e 'tell app "System Events" to tell appearance preferences to set dark mode to not dark mode'
