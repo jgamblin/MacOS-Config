@@ -9,16 +9,16 @@ if ! [ -x "$(command -v brew)" ]; then
    fi
    
 # Install Need Software on Mac #
-brew cask install evernote
+#brew cask install evernote
 brew cask install firefox
-brew cask install visual-studio-code
-brew cask install google-chrome
-brew cask install peakhour
+#brew cask install visual-studio-code
+#brew cask install google-chrome
+#brew cask install peakhour
 brew cask install dropbox
 brew cask install telegram
-brew cask install 1password
+#brew cask install 1password
 brew cask install iterm2
-brew cask install vmware-fusion
+#brew cask install vmware-fusion
 #brew cask install ipvanish-vpn
 brew cask install insomniax
 brew tap buo/cask-upgrade
