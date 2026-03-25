@@ -2,11 +2,11 @@
 
 #Check If Brew Is Installed
 if ! [ -x "$(command -v brew)" ]; then
-      /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-   else
-     brew update
-     brew upgrade
-   fi
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+else
+	brew update
+	brew upgrade
+fi
 
 # Install My Tools
 brew install ack
